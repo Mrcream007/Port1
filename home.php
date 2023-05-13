@@ -78,6 +78,8 @@
 
         </div>
 
+        <div class="credit"> created by <span>Mr. Okocha</span> all rights reserved!</div>
+
     </section>
 
     <!-- footer ends -->

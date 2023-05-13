@@ -83,7 +83,8 @@ section{
 
 
 .footer{
-    background: url(../images/) no-repeat;
+    /* background: url(../images/) no-repeat; */
+    background-color: #222;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -111,7 +112,7 @@ section{
 .footer .box-container .box a i{
     color: var(--main-color);
     padding-right: .5rem;
-    transition: 2s, linear;
+    transition: 2s linear;
 }
 
 .footer .box-container .box a:hover i{
@@ -187,4 +188,13 @@ section{
         font-size: 50%;
     }
 
+}
+
+.footer .credit{
+    text-align: center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: .1rem solid var(--light-white);
+    font-size: 2rem;
+    color: var(--white);
 }
