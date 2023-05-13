@@ -87,7 +87,7 @@ section{
     background-color: #222;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .footer .box-container{
@@ -197,4 +197,8 @@ section{
     border-top: .1rem solid var(--light-white);
     font-size: 2rem;
     color: var(--white);
+}
+
+.footer .credit span{
+    color: var(--main-color);
 }
