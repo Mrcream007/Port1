@@ -38,7 +38,7 @@
 
     <!--end of header-->
     <div class="heading" style="background:url(images/) no-repeat">
-        <h1>about us</h1>
+        <h1>package</h1>
     </div>
 
 
