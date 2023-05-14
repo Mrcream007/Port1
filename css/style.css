@@ -136,7 +136,7 @@ section{
     font-size: 2.2rem;
     color: var(--light-white);
     padding-bottom: 1rem;
-    animation:fadeIn .4s linear backwards .2s;
+    animation:fadeIn .2s linear backwards .2s;
 }
 
 .home .slide .content h3{
@@ -146,11 +146,38 @@ section{
     line-height: 1;
     text-shadow: var(--text-shadow);
     padding: 1rem 0;
-    animation:fadeIn .4s linear backwards .5s;
+    animation:fadeIn .2s linear backwards .5s;
 }
 
 .home .slide .content .btn{
-    animation:fadeIn .4s linear backwards .6s;
+    animation:fadeIn .2s linear backwards .6s;
+}
+
+.home .swiper-button-next,
+.home .swiper-button-prev{
+    top: inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    height: 7rem;
+    width: 7rem;
+    background: var(--white);
+    color: var(--black);
+}
+
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover{
+    background: var(--white);
+    color: var(--white);
+}
+
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after{
+    font-size: 2rem;
+}
+
+.home .swiper-button-prev{
+    right: 7rem;
 }
 
 
