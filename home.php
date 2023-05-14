@@ -36,6 +36,46 @@
     <!-- header section ends -->
 
 
+
+    <!-- home section starts -->
+    <section class="home">
+
+        <div class="home-slider">
+
+            <div class="W">
+
+                <div class="slide" style="background: url(images/fb-logo.jpg) no-repeat;">
+                    <div class="content">
+                        <span>discover, travel, explore</span>
+                        <h3>visit all around the world</h3>
+                        <a href="package.php" class="btn">discover much more</a>
+                    </div>
+                </div>
+
+                <div class="slide" style="background: url(images/fb-logo.jpg) no-repeat;">
+                    <div class="content">
+                        <span>discover, travel, explore</span>
+                        <h3>explore beautiful locations</h3>
+                        <a href="package.php" class="btn">discover much more</a>
+                    </div>
+                </div>
+
+                <div class="slide" style="background: url(images/fb-logo.jpg) no-repeat;">
+                    <div class="content">
+                        <span>discover, travel, explore</span>
+                        <h3>have a memorable experience</h3>
+                        <a href="package.php" class="btn">discover much more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- home section ends -->
+
+
     
     <!--start of services section-->
     <section class="services1">
