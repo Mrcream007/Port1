@@ -44,7 +44,7 @@
 
             <div class="W">
 
-                <div class="slide" style="background: url(images/fb-logo.jpg) no-repeat;">
+                <div class="slide" style="background: url(images/snowy-mountain-landscape.jpg) no-repeat;">
                     <div class="content">
                         <span>discover, travel, explore</span>
                         <h3>visit all around the world</h3>
@@ -52,7 +52,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background: url(images/fb-logo.jpg) no-repeat;">
+                <div class="slide" style="background: url(images/guyexploring.jpg) no-repeat;">
                     <div class="content">
                         <span>discover, travel, explore</span>
                         <h3>explore beautiful locations</h3>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background: url(images/fb-logo.jpg) no-repeat;">
+                <div class="slide" style="background: url(images/snowy-mountain-landscape.jpg) no-repeat;">
                     <div class="content">
                         <span>discover, travel, explore</span>
                         <h3>have a memorable experience</h3>
