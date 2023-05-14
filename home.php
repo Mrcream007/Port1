@@ -33,7 +33,51 @@
         <div id="menu-btn" class="fas fa-bars"></div>
 
     </section>
+    <!-- header section ends -->
 
+
+    
+    <!--start of services section-->
+    <section class="services1">
+
+        <h1 class="heading-title">services offered</h1>
+        
+        <div class="box-container">
+
+               <div class="box">
+                    <img src="images/square1.jpg"  alt="">
+                    <h3>adventure</h3>
+                </div>
+
+                <div class="box">
+                    <img src="../Port1/images/square1.jpg" alt="">
+                    <h3>enjoy tour guide</h3>
+                </div>
+
+                <div class="box">
+                        <img src="../Port1/images/square1.jpg"  alt="">
+                        <h3>walking</h3>
+                </div>
+
+                <div class="box">
+                        <img src="images/square1.jpg"  alt="">
+                        <h3>fire camp</h3>
+                </div>
+
+                <div class="box">
+                        <img src="../Port1/images/square1.jpg"  alt="">
+                        <h3>off road venture</h3>
+                </div>
+
+                <div class="box">
+                        <img src="../Port1/images/square1.jpg"  alt="">
+                        <h3>camping out</h3>
+                </div>
+
+
+        </div>
+    </section>
+    <!--end of services-->
 
 
 
@@ -85,10 +129,12 @@
     <!-- footer ends -->
 
 
+
+
     <!-- swiper js link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     <!-- js file link -->
-    <script>src="js/script.js"</script>
+    <script src="js/script.js"></script>
 </body>
 </html>
