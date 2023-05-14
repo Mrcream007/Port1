@@ -12,6 +12,10 @@
     <!-- awesome font link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+    <!-- swiper page link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
     <!-- css link file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,11 +44,11 @@
     <!-- home section starts -->
     <section class="home">
 
-        <div class="home-slider">
+        <div class="swiper home-slider">
 
-            <div class="W">
+            <div class="swiper-wrapper">
 
-                <div class="slide" style="background: url(images/snowy-mountain-landscape.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(images/snowy-mountain-landscape.jpg) no-repeat;">
                     <div class="content">
                         <span>discover, travel, explore</span>
                         <h3>visit all around the world</h3>
@@ -52,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background: url(images/guyexploring.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(images/guyexploring.jpg) no-repeat;">
                     <div class="content">
                         <span>discover, travel, explore</span>
                         <h3>explore beautiful locations</h3>
@@ -60,7 +64,7 @@
                     </div>
                 </div>
 
-                <div class="slide" style="background: url(images/snowy-mountain-landscape.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(images/snowy-mountain-landscape.jpg) no-repeat;">
                     <div class="content">
                         <span>discover, travel, explore</span>
                         <h3>have a memorable experience</h3>
@@ -69,6 +73,11 @@
                 </div>
 
             </div>
+
+             <div class="swiper-button-next"></div>
+             <div class="swiper-button-prev"></div>
+
+            <!-- <div class="swiper-pagination"></div> -->
 
         </div>
 

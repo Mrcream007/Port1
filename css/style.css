@@ -117,6 +117,7 @@ section{
 
 .home .slide .content{
     width: 85rem;
+    display: none;
 }
 
 .home .slide .content span{
