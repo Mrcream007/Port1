@@ -152,22 +152,46 @@
 
     <section class="home-packages">
         
-        <h1 class="heading">our packages</h1>
+        <h1 class="heading-title">our packages</h1>
 
         <div class="box-container">
 
             <div class="box">
                 <div class="image">
-                    <img src="../Port1/images/snowy-mountain-landscape.jpg" alt="">
+                    <img src="../Port1/images/square1.jpg" alt="">
                 </div>
                 <div class="content">
                     <h3>tour and Adventure</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit labore velit architecto in possimus quos ea odit voluptatem laudantium deserunt quo, a modi reiciendis? Nostrum perspiciatis nihil reprehenderit a obcaecati?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="book.php" class="btn">make bookings</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../Port1/images/square1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>tour and Adventure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="book.php" class="btn">make bookings</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="../Port1/images/square1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>tour and Adventure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <a href="book.php" class="btn">make bookings</a>
                 </div>
             </div>
 
         </div>
+
+        <div class="load-more"><a href="package.php" class="btn" >load more</a></div>
     </section>
 
     <!-- home package section ends -->
