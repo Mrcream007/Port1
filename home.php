@@ -129,6 +129,48 @@
     <!--end of services-->
 
 
+    <!-- home about section starts -->
+
+    <section class="home-about">
+
+        <div class="image">
+            <img src="../Port1/images/guyexploring.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>about us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sunt ipsa, corrupti dolorum illo earum sit repudiandae dicta nesciunt dolorem architecto necessitatibus, aliquid cupiditate consectetur similique eos dolores commodi. Maiores.</p>
+            <a href="about.php" class="btn">read more</a>
+        </div>
+
+    </section>
+
+    <!-- home about section ends -->
+
+
+    <!-- home packages section starts -->
+
+    <section class="home-packages">
+        
+        <h1 class="heading">our packages</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="../Port1/images/snowy-mountain-landscape.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>tour and Adventure</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit labore velit architecto in possimus quos ea odit voluptatem laudantium deserunt quo, a modi reiciendis? Nostrum perspiciatis nihil reprehenderit a obcaecati?</p>
+                    <a href="book.php" class="btn">make bookings</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- home package section ends -->
 
 
     <!-- footer start -->
