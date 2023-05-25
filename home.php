@@ -196,6 +196,20 @@
 
     <!-- home package section ends -->
 
+    
+    
+    <!-- home offer starts -->
+
+    <section class="home-offer">
+        <div class="content">
+            <h3>Get 60% off</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium officiis corporis consectetur recusandae rep.</p>
+            <a href="book.php" class="btn">book now</a>
+        </div>
+    </section>
+
+    <!-- home offer ends -->
+
 
     <!-- footer start -->
 

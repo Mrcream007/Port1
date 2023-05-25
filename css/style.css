@@ -250,6 +250,11 @@ section{
     background: var(--light-bg);
 }
 
+.home-packages .heading-title h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
 .home-packages .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(3rem, 1fr));
@@ -295,6 +300,30 @@ section{
     text-align: center;
     margin-top: 2rem;
 }
+
+.home-offer{
+    text-align: center;
+}
+
+.home-offer .content{
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.home-offer .content h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.home-offer .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+
 
 
 
