@@ -41,6 +41,42 @@
         <h1>about us</h1>
     </div>
 
+    <!-- about section starts -->
+
+    <section class="about">
+
+        <div class="images">
+            <img src="../Port1/images/square1.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>Why pick us?</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia reprehenderit obcaecati nihil rerum quae ullam odit ipsum veniam accusantium corporis consequatur saepe vel sint, quaerat nostrum maxime, eius aliquam animi!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet doloremque hic nobis fugiat dolores ullam, ad laboriosam illo voluptates tempora, dolore itaque quaerat officiis quam maxime sapiente perspiciatis explicabo recusandae?</p>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-map"></i>
+                    <span>Best locations</span>
+                </div>
+            </div>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-hand-holding-usd"></i>
+                    <span>cheap prices</span>
+                </div>
+            </div>
+            <div class="icons-container">
+                <div class="icons">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service guide</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
 
 
 
