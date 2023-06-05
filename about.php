@@ -82,7 +82,63 @@
     <section class="reviews">
 
         <div class="reviews-slider">
-            
+            <div class="w">
+
+                <div class="slide">
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
+                    <h3>Okocha</h3>
+                    <span>traveler</span>
+                    <img src="images/square1.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
+                    <h3>Okocha</h3>
+                    <span>traveler</span>
+                    <img src="images/square1.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
+                    <h3>Okocha</h3>
+                    <span>traveler</span>
+                    <img src="images/square1.jpg" alt="">
+                </div>
+
+                <div class="slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
+                    <h3>Okocha</h3>
+                    <span>traveler</span>
+                    <img src="images/square1.jpg" alt="">
+                </div>
+
+            </div>
         </div>
 
     </section>
