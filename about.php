@@ -81,10 +81,13 @@
 
     <section class="reviews">
 
-        <div class="reviews-slider">
-            <div class="w">
+    <h1 class="heading-title">Customers Reviews</h1>
 
-                <div class="slide">
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slider slide">
                     <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -92,26 +95,26 @@
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat .</p>
                     <h3>Okocha</h3>
                     <span>traveler</span>
-                    <img src="images/square1.jpg" alt="">
+                    <img src="images/Goat.jpg" alt="">
                 </div>
 
-                <div class="slide">
+                <div class="swiper-slider slide">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
                     <h3>Okocha</h3>
                     <span>traveler</span>
-                    <img src="images/square1.jpg" alt="">
+                    <img src="images/guyexploring.jpg" alt="">
                 </div>
 
-                <div class="slide">
+                <div class="swiper-slider slide">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -122,10 +125,10 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
                     <h3>Okocha</h3>
                     <span>traveler</span>
-                    <img src="images/square1.jpg" alt="">
+                    <img src="images/butterfly-icon.jpg" alt="">
                 </div>
 
-                <div class="slide">
+                <div class="swiper-slider slide">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -135,7 +138,30 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
                     <h3>Okocha</h3>
                     <span>traveler</span>
-                    <img src="images/square1.jpg" alt="">
+                    <img src="images/ladychinese.jpg" alt="">
+                </div>
+
+                <div class="swiper-slider slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
+                    <h3>Okocha</h3>
+                    <span>traveler</span>
+                    <img src="images/ladychinese.jpg" alt="">
+                </div>
+
+                <div class="swiper-slider slide">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos .</p>
+                    <h3>Okocha</h3>
+                    <span>traveler</span>
+                    <img src="images/ladychinese.jpg" alt="">
                 </div>
 
             </div>

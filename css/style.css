@@ -403,12 +403,24 @@ section{
     background: var(--light-bg);
 }
 
+.reviews .heading-title{
+    font-size: 5.3rem;
+    text-align: center;
+    color: var(--black);
+    padding-bottom: 2rem;
+}
+
 .reviews .slide{
     padding: 2rem;
     border: var(--border);
     background: var(--white);
     text-align: center;
     box-shadow: var(--box-shadow);
+    user-select: none;
+}
+
+.reviews .slide .stars{
+    padding-bottom: 5rem;
 }
 
 .reviews .slide .stars i{
@@ -431,12 +443,14 @@ section{
 .reviews .slide span{
     font-size: 1.5rem;
     color: var(--main-color);
+    display: block;
 }
 
 .reviews .slide img{
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
+    margin-top: 1rem;
 }
 
 
