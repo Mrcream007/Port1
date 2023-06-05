@@ -37,7 +37,7 @@
 
 
     <!--end of header-->
-    <div class="heading" style="background:url(images/snowy-mountain-landscape.jpg) no-repeat">
+    <div class="heading" style="background:url(images/Canvastudentsbanner\ \(2\).jpeg) no-repeat">
         <h1>about us</h1>
     </div>
 
@@ -76,6 +76,18 @@
     </section>
 
     <!-- about section ends -->
+
+    <!-- reviews section starts -->
+
+    <section class="reviews">
+
+        <div class="reviews-slider">
+            
+        </div>
+
+    </section>
+
+    <!-- reviews section ends -->
 
 
 
