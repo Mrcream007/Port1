@@ -172,7 +172,7 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="images/square1.jpg" alt="">
+                        <img src="images/butterfly-icon.jpg" alt="">
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
