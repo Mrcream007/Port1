@@ -94,32 +94,32 @@
         <div class="box-container">
 
                <div class="box">
-                    <img src="images/square1.jpg"  alt="">
+                    <img src="images/butterfly-icon.jpg"  alt="">
                     <h3>adventure</h3>
                 </div>
 
                 <div class="box">
-                    <img src="../Port1/images/square1.jpg" alt="">
+                    <img src="../Port1/images/normalPic.jpg" alt="">
                     <h3>enjoy tour guide</h3>
                 </div>
 
                 <div class="box">
-                        <img src="../Port1/images/square1.jpg"  alt="">
+                        <img src="../Port1/images/officeLady.jpg"  alt="">
                         <h3>walking</h3>
                 </div>
 
                 <div class="box">
-                        <img src="images/square1.jpg"  alt="">
+                        <img src="images/grey-geometrical-shapes-background.jpg"  alt="">
                         <h3>fire camp</h3>
                 </div>
 
                 <div class="box">
-                        <img src="../Port1/images/square1.jpg"  alt="">
+                        <img src="../Port1/images/smilingBlackguy.jpg"  alt="">
                         <h3>off road venture</h3>
                 </div>
 
                 <div class="box">
-                        <img src="../Port1/images/square1.jpg"  alt="">
+                        <img src="../Port1/images/chuka.jpeg"  alt="">
                         <h3>camping out</h3>
                 </div>
 
@@ -158,7 +158,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="../Port1/images/square1.jpg" alt="">
+                    <img src="../Port1/images/officeLady.jpg" alt="">
                 </div>
                 <div class="content">
                     <h3>tour and Adventure</h3>
@@ -169,7 +169,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="../Port1/images/square1.jpg" alt="">
+                    <img src="../Port1/images/smallsquare1.jpg" alt="">
                 </div>
                 <div class="content">
                     <h3>tour and Adventure</h3>
@@ -180,7 +180,7 @@
 
             <div class="box">
                 <div class="image">
-                    <img src="../Port1/images/square1.jpg" alt="">
+                    <img src="../Port1/images/smilingBlackguy.jpg" alt="">
                 </div>
                 <div class="content">
                     <h3>tour and Adventure</h3>

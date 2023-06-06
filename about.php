@@ -46,7 +46,7 @@
     <section class="about">
 
         <div class="images">
-            <img src="../Port1/images/square1.jpg" alt="">
+            <img src="../Port1/images/smallsquare1.jpg" alt="">
         </div>
 
         <div class="content">

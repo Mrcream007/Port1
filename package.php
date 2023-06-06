@@ -37,7 +37,7 @@
 
 
     <!--end of header-->
-    <div class="heading" style="background:url(images/snowy-mountain-landscape.jpg) no-repeat">
+    <div class="heading" style="background:url(images/image0.jpeg) no-repeat">
         <h1>package</h1>
     </div>
 
@@ -52,7 +52,7 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="images/square1.jpg" alt="">
+                        <img src="images/Goat.jpg" alt="">
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
@@ -64,7 +64,7 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="images/square1.jpg" alt="">
+                        <img src="images/butterfly-icon.jpg" alt="">
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
@@ -76,7 +76,7 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="images/square1.jpg" alt="">
+                        <img src="images/ladychinese.jpg" alt="">
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
@@ -88,7 +88,19 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="images/square1.jpg" alt="">
+                        <img src="images/guyexploring.jpg" alt="">
+                    </div>
+                        <div class="content">
+                            <h3>adventure and tour</h3>
+                            <p>Lorem ipsum dolor sit amet consect.</p>
+                            <a href="book.php" class="btn">book now</a>
+                        </div>
+                </div>
+
+                <div class="box">
+
+                    <div class="image">
+                        <img src="images/image0.jpeg" alt="">
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
@@ -100,19 +112,7 @@
                 <div class="box">
 
                     <div class="image">
-                        <img src="images/square1.jpg" alt="">
-                    </div>
-                        <div class="content">
-                            <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
-                            <a href="book.php" class="btn">book now</a>
-                        </div>
-                </div>
-
-                <div class="box">
-
-                    <div class="image">
-                        <img src="images/square1.jpg" alt="">
+                        <img src="images/600x600-profile-silhouette-m.jpg" alt="">
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>

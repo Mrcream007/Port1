@@ -37,7 +37,7 @@
 
 
     <!--end of header-->
-    <div class="heading" style="background:url(images/snowy-mountain-landscape.jpg) no-repeat">
+    <div class="heading" style="background:url(images/beautiful-scenery-road-forest-with-lot-colorful-autumn-trees_181624-30942.jpg) no-repeat">
         <h1>book now</h1>
     </div>
 
