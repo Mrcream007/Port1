@@ -72,11 +72,11 @@
                     </div>
                     <div class="inputBox">
                         <span>how many : </span>
-                        <input type="number" placeholder="amount of guests" name="guests">
+                        <input type="number" placeholder="amount of guests" name="guest">
                     </div>
                     <div class="inputBox">
                         <span>arrivals : </span>
-                        <input type="date"  name="arrival">
+                        <input type="date"  name="arrivals">
                     </div>
                     <div class="inputBox">
                         <span>leaving : </span>
