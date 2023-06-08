@@ -681,11 +681,44 @@ html, body{
 }
 
 .wrapper .form .inbox .icon{
-    color: #8e44ad;
+    color: #fff;
     height: 40px;
     width: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;/*make icons, objects e.g profile picture circular*/
+    font-size: 18px;
     background: #007bff;
 }
+
+/*focusing on the chat buble box*/
+.wrapper .form .inbox .msg-header{
+    max-width: 53%;
+    /* background: red; */
+    margin-left: 10px;
+}
+
+.form .inbox .msg-header p{
+    color: #fff;
+    background: #007bff;
+    border-radius: 10px;/*make icons, objects e.g profile picture circular*/
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+/* focusing on the user chatbox */
+.wrapper .typing-field{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #efefef;
+    border-top: 1px solid #d9d9d9;
+    border-radius: 0 0 5px 5px;
+}
+
+
 /* Chatbot ends */
 
 

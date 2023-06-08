@@ -17,11 +17,17 @@
         <div class="form">
             <div class="bot-inbox inbox">
                 <div class="icon">
-                <i class=""></i>
+                <i class='fas fa-fire'></i>
                 </div>
                 <div class="msg-header">
                     <p>Welcome, how may I be of service to you?</p>
                 </div>
+            </div>
+        </div>
+        <div class="typing-field">
+            <div class="input-data">
+                <input type="text" placeholder="Type something here...">
+                <button>Send</button>
             </div>
         </div>
     </div>
