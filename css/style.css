@@ -14,7 +14,7 @@
 
 *{
     font-family: 'Poppins', sans-serif;
-    margin: 0; padding: 0;
+    /* margin: 0; padding: 0; */
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
@@ -641,85 +641,6 @@ section{
 
 
 
-/* Chatbot starts*/
-html, body{
-    display: grid;
-    height: 100%;
-    place-items: center;
-}
-
-.wrapper{
-    width: 370px;
-    background: #fff;
-    border-radius: 5px;
-    border: 1px solid lightgrey;
-    border-top: 0px;
-}
-
-.wrapper .title{
-    background: #007bff;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 60px;
-    text-align: center;
-    border-bottom: 1px solid #006fe6;
-    border-radius: 5px 5px 0 0;
-}
-
-.wrapper .form{
-    padding: 20px 15px;
-    min-height: 400px;
-    max-height: 400px;
-    overflow: auto;
-}
-
-.wrapper .form .inbox{
-    width: 100%;
-    display: flex;
-    align-items: baseline;
-}
-
-.wrapper .form .inbox .icon{
-    color: #fff;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;/*make icons, objects e.g profile picture circular*/
-    font-size: 18px;
-    background: #007bff;
-}
-
-/*focusing on the chat buble box*/
-.wrapper .form .inbox .msg-header{
-    max-width: 53%;
-    /* background: red; */
-    margin-left: 10px;
-}
-
-.form .inbox .msg-header p{
-    color: #fff;
-    background: #007bff;
-    border-radius: 10px;/*make icons, objects e.g profile picture circular*/
-    padding: 8px 10px;
-    font-size: 14px;
-}
-
-/* focusing on the user chatbox */
-.wrapper .typing-field{
-    display: flex;
-    height: 60px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-evenly;
-    background: #efefef;
-    border-top: 1px solid #d9d9d9;
-    border-radius: 0 0 5px 5px;
-}
-
-
-/* Chatbot ends */
 
 
 
@@ -800,4 +721,51 @@ html, body{
         font-size: 3.5rem;
     }
 
+}
+
+
+ /* Styles for chatbot container */
+ #chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #e4e3ea;
+    border: 1px solid #4b3767;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Styles for chatbot header */
+#chatbot-header {
+    background-color: #7b4b9f;
+    padding: 10px;
+    color: #fff;
+}
+
+
+/* Styles for chatbot messages */
+#chatbot-messages {
+    height: 320px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#chatbot-messages p{
+    background-color: #8e44ad;
+    color: #fff;
+    max-width: 53%;
+    /* background: red; */
+    margin-left: 10px;
+    border-radius: 10px;/*make icons, objects e.g profile picture circular*/
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+/* Styles for user input */
+#user-input {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #f9f9f9;
 }

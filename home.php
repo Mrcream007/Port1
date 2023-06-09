@@ -211,6 +211,29 @@
     <!-- home offer ends -->
 
 
+
+
+    <!-- chatbot starts -->
+
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <h3>Chatbot</h3>
+        </div>
+        <div id="chatbot-messages">
+            <p>Welcome to the chatbot!</p>
+        </div>
+        <div id="user-input">
+            <input type="text" id="message-input" placeholder="Type your message..." required>
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <!-- chatbot ends -->
+
+
+
+
+
     <!-- footer start -->
 
     <section class="footer">
@@ -265,5 +288,9 @@
 
     <!-- js file link -->
     <script src="js/script.js"></script>
+    <script>
+        // Function to append a new message to the chatbot container
+        // function appendMessage(sender, message)
+    //</script>
 </body>
 </html>

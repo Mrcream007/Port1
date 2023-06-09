@@ -25,11 +25,8 @@
             </div>
 
             <div class="user-inbox inbox">
-                <div class="icon">
-                <i class='fas fa-fire'></i>
-                </div>
                 <div class="msg-header">
-                    <p>Welcome, how may I be of service to you?</p>
+                    <p>Hey, I am a traveller</p>
                 </div>
             </div>
         </div>
