@@ -17,11 +17,22 @@ html, body{
 }
 
 .wrapper{
-    width: 370px;
+    /* width: 370px;
     background: #fff;
     border-radius: 5px;
     border: 1px solid lightgrey;
-    border-top: 0px;
+    border-top: 0px; */
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 370px;
+    /* height: 400px; */
+    background-color: #e4e3ea;
+    border: 1px solid #4b3767;
+    border-radius: 5px;
+    overflow: hidden;
+    
 }
 
 .wrapper .title{
@@ -46,6 +57,11 @@ html, body{
     width: 100%;
     display: flex;
     align-items: baseline;
+}
+
+.wrapper .form .user-inbox{
+    justify-content: flex-end;
+    margin-left: 13px 0;
 }
 
 .wrapper .form .inbox .icon{
