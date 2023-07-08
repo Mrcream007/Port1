@@ -62,7 +62,7 @@
     endif;
 ?>
             <div>
-                <h1 style="text-align: center; background-color: black;"><a href="home.php">Site Name</a></h1>
+                <h1 style="text-align: center; background-color: black;"><a href="home.php">Travel</a></h1>
             </div>
             
 
@@ -86,6 +86,8 @@
       </label>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
+    <br>
+    <p>New user? <a href="signup.php">Sign up</a></p>
     <br>
     <br>
   </form>
