@@ -1,3 +1,21 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION['brend_id'])) {
+    $sqliconn = require __DIR__ . "/database.php";
+
+    $sql = "SELECT * from brend
+            where id = {$_SESSION["brend_id"]}";
+
+    $result = $sqliconn->query($sql);
+
+    $brend = $result->fetch_assoc();
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +46,15 @@
             <a href="about.php">about</a>
             <a href="package.php">package</a>
             <a href="book.php">book</a>
+            <a href="searchstories.php">search</a>
+            <?php
+
+                    if(isset($brend)):
+                    ?>
+                    <div style=" padding-top: 9px;">
+                    <p>Hi <?=htmlspecialchars($brend["name"]) ?></p>
+                        <?php endif; ?>
+                    </div>
         </nav>
 
         <div id="menu-btn" class="fas fa-bars"></div>
