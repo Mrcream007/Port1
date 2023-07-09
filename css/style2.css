@@ -105,6 +105,7 @@ html, body{
     border-radius: 10px;/*make icons, objects e.g profile picture circular*/
     padding: 8px 10px;
     font-size: 14px;
+    word-break: break-all; /*wraps all the words in a box and prevents them from coming out */
 }
 
 .wrapper .form .msg-header p{

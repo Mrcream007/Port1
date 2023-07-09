@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <!-- font awesome link -->
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -56,16 +57,39 @@
 
             <div class="user-inbox inbox">
                 <div class="msg-header">
-                    <p>Hey, I am a traveller</p>
+                    <p>Hey, I am a traveller. sdrtjhgfghjfghjkgfghjfghjfghfghghghghmg</p>
                 </div>
             </div>
         </div>
         <div class="typing-field">
             <div class="input-data">
-                <input type="text" placeholder="Type something here..." required>
-                <button>Send</button>
+                <input id="data" type="text" placeholder="Type something here..." required>
+                <button id="send-btn">Send</button>
             </div>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#send-btn").on("click", function(){
+                $value = $("#data").val();
+                // alert($value);
+                $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
+                $(".form").append($msg);
+                $("#data").val('');
+
+                // start ajax code 
+                $.ajax({
+                    url: 'message.php',
+                    type: 'POST',
+                    data: 'text ='+$value,
+                    success: function(result){
+
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 </html>
