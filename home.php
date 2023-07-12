@@ -135,12 +135,12 @@ if (isset($_SESSION['brend_id'])) {
 
                 <div class="box">
                         <img src="../Port1/images/officeLady.jpg"  alt="">
-                        <h3>walking</h3>
+                        <h3>Flights</h3>
                 </div>
 
                 <div class="box">
                         <img src="images/grey-geometrical-shapes-background.jpg"  alt="">
-                        <h3>fire camp</h3>
+                        <h3>Destinations</h3>
                 </div>
 
                 <div class="box">
@@ -150,7 +150,7 @@ if (isset($_SESSION['brend_id'])) {
 
                 <div class="box">
                         <img src="../Port1/images/chuka.jpeg"  alt="">
-                        <h3>camping out</h3>
+                        <h3>Unforgetable experience</h3>
                 </div>
 
 
@@ -169,7 +169,7 @@ if (isset($_SESSION['brend_id'])) {
 
         <div class="content">
             <h3>about us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sunt ipsa, corrupti dolorum illo earum sit repudiandae dicta nesciunt dolorem architecto necessitatibus, aliquid cupiditate consectetur similique eos dolores commodi. Maiores.</p>
+            <p>At Web-Based Tourism, we are passionate about providing exceptional travel experiences to our valued users. Our platform is designed to assist you in planning your dream vacations, exploring exciting destinations, and discovering unique attractions worldwide. With our user-friendly interface and innovative features, we aim to make your travel planning process seamless and enjoyable.</p>
             <a href="about.php" class="btn">read more</a>
         </div>
 
@@ -192,7 +192,7 @@ if (isset($_SESSION['brend_id'])) {
                 </div>
                 <div class="content">
                     <h3>tour and Adventure</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <p>Explore a vast array of destinations, from exotic tropical paradises to bustling metropolises. </p>
                     <a href="book.php" class="btn">make bookings</a>
                 </div>
             </div>
@@ -202,8 +202,8 @@ if (isset($_SESSION['brend_id'])) {
                     <img src="../Port1/images/smallsquare1.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tour and Adventure</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <h3>Personalized Recommendations</h3>
+                    <p>Our intelligent chatbot analyzes your preferences, interests, and travel requirements</p>
                     <a href="book.php" class="btn">make bookings</a>
                 </div>
             </div>
@@ -213,8 +213,8 @@ if (isset($_SESSION['brend_id'])) {
                     <img src="../Port1/images/smilingBlackguy.jpg" alt="">
                 </div>
                 <div class="content">
-                    <h3>tour and Adventure</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <h3>Travel Planning Tools</h3>
+                    <p>Seamlessly manage your travel arrangements in one place.</p>
                     <a href="book.php" class="btn">make bookings</a>
                 </div>
             </div>
@@ -245,7 +245,7 @@ if (isset($_SESSION['brend_id'])) {
 
     <!-- chatbot starts -->
 
-    <div id="chatbot-container">
+    <!-- <div id="chatbot-container">
         <div id="chatbot-header">
             <h3>Chatbot</h3>
         </div>
@@ -256,7 +256,7 @@ if (isset($_SESSION['brend_id'])) {
             <input type="text" id="message-input" placeholder="Type your message..." required>
             <button id="send-button">Send</button>
         </div>
-    </div>
+    </div> -->
 
     <!-- chatbot ends -->
 

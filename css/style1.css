@@ -117,3 +117,18 @@ button {
     color: var(--main-color);
 }
 /**footer ends/
+
+/* sign up starts */
+
+.container{
+    /* position:fixed; */
+    /* bottom: 20px; */
+    /* right: 20px; */
+    width: 400px;
+    background-color: #e4e3ea;
+    border: 1px solid #4b3767;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* sign up ends */
