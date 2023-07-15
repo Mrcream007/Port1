@@ -40,15 +40,16 @@ html, body{
     border: 1px solid lightgrey;
     border-top: 0px; */
 
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    /* position: fixed; */
+    /* bottom: 20px;
+    right: 20px; */
     width: 370px;
     /* height: 400px; */
     background-color: #e4e3ea;
     border: 1px solid #4b3767;
     border-radius: 5px;
     overflow: hidden;
+    align-items: center;
     
 }
 

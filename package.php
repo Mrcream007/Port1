@@ -46,6 +46,7 @@ if (isset($_SESSION['brend_id'])) {
             <a href="about.php">about</a>
             <a href="package.php">package</a>
             <a href="book.php">book</a>
+            <a href="bot.php">Chatbot</a>
             <a href="searchstories.php">search</a>
             <?php
 
@@ -82,7 +83,7 @@ if (isset($_SESSION['brend_id'])) {
                         <img src="images/Goat.jpg" alt="">
                     </div>
                         <div class="content">
-                            <h3>adventure and tour</h3>
+                            <h3>Booking and Reservation</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
                             <a href="book.php" class="btn">book now</a>
                         </div>
@@ -106,7 +107,7 @@ if (isset($_SESSION['brend_id'])) {
                         <img src="images/ladychinese.jpg" alt="">
                     </div>
                         <div class="content">
-                            <h3>adventure and tour</h3>
+                            <h3>Availability and Prices</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
                             <a href="book.php" class="btn">book now</a>
                         </div>
@@ -118,7 +119,7 @@ if (isset($_SESSION['brend_id'])) {
                         <img src="images/guyexploring.jpg" alt="">
                     </div>
                         <div class="content">
-                            <h3>adventure and tour</h3>
+                            <h3>Customization Options</h3>
                             <p>Lorem ipsum dolor sit amet consect.</p>
                             <a href="book.php" class="btn">book now</a>
                         </div>
@@ -130,7 +131,7 @@ if (isset($_SESSION['brend_id'])) {
                         <img src="images/image0.jpeg" alt="">
                     </div>
                         <div class="content">
-                            <h3>adventure and tour</h3>
+                            <h3>Package Details</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
                             <a href="book.php" class="btn">book now</a>
                         </div>
@@ -142,7 +143,7 @@ if (isset($_SESSION['brend_id'])) {
                         <img src="images/600x600-profile-silhouette-m.jpg" alt="">
                     </div>
                         <div class="content">
-                            <h3>adventure and tour</h3>
+                            <h3>More Activities</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
                             <a href="book.php" class="btn">book now</a>
                         </div>

@@ -25,41 +25,7 @@
                 </div>
             </div>
 
-            <div class="user-inbox inbox">
-                <div class="msg-header">
-                    <p>Hey, I am a traveller</p>
-                </div>
-            </div>
-
-            <div class="bot-inbox inbox">
-                <div class="icon">
-                <i class='fas fa-fire'></i>
-                </div>
-                <div class="msg-header">
-                    <p>Welcome, how may I be of service to you?</p>
-                </div>
-            </div>
-
-            <div class="user-inbox inbox">
-                <div class="msg-header">
-                    <p>Hey, I am a traveller</p>
-                </div>
-            </div>
-
-            <div class="bot-inbox inbox">
-                <div class="icon">
-                <i class='fas fa-fire'></i>
-                </div>
-                <div class="msg-header">
-                    <p>Welcome, how may I be of service to you?</p>
-                </div>
-            </div>
-
-            <div class="user-inbox inbox">
-                <div class="msg-header">
-                    <p>Hey, I am a traveller. sdrtjhgfghjfghjkgfghjfghjfghfghghghghmg</p>
-                </div>
-            </div>
+            
         </div>
         <div class="typing-field">
             <div class="input-data">

@@ -512,6 +512,7 @@ section{
 .packages .box-container .box .content h3{
     font-size: 2.5rem;
     color: var(--black);
+    word-break: break-all; 
 }
 
 .packages .box-container .box .content p {
@@ -769,6 +770,28 @@ section{
     border-top: 1px solid #ccc;
     background-color: #f9f9f9;
 }
+/* chatbot ends */
+
+
+
+
+
+/*  */
+
+.wrapper{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #e4e3ea;
+    border: 1px solid #4b3767;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/*  */
+
 
 
 

@@ -52,7 +52,7 @@
     </div>-->
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
     <br>
-    <p>Return to <a href="home.php">Home Page</a></p>
+    <p>Return to <a href="home.php">Home Page</a> or <a href="login.php">Login</a></p>
   </form>
 </div>
 

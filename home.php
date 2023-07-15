@@ -53,6 +53,7 @@ if (isset($_SESSION['brend_id'])) {
             <a href="searchstories.php">search</a>
             <a href="login.php">Login</a>
             <a  href="logout.php">Logout</a>
+            <a href="bot.php">Chatbot</a>
             <?php
 
                     if(isset($brend)):
@@ -245,18 +246,19 @@ if (isset($_SESSION['brend_id'])) {
 
     <!-- chatbot starts -->
 
-    <!-- <div id="chatbot-container">
+    <div id="chatbot-container">
         <div id="chatbot-header">
             <h3>Chatbot</h3>
         </div>
         <div id="chatbot-messages">
-            <p>Welcome to the chatbot!</p>
+            <p>Welcome to the chatbot! Click <a href="bot.php"> Here</a> to access chatbot!</p>
         </div>
         <div id="user-input">
             <input type="text" id="message-input" placeholder="Type your message..." required>
             <button id="send-button">Send</button>
         </div>
-    </div> -->
+    </div> 
+
 
     <!-- chatbot ends -->
 
@@ -322,5 +324,9 @@ if (isset($_SESSION['brend_id'])) {
         // Function to append a new message to the chatbot container
         // function appendMessage(sender, message)
     //</script>
+
+    <!-- experiment starts -->
+    
+    <!-- experiment ends -->
 </body>
 </html>

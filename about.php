@@ -46,6 +46,7 @@ if (isset($_SESSION['brend_id'])) {
             <a href="about.php">about</a>
             <a href="package.php">package</a>
             <a href="book.php">book</a>
+            <a href="bot.php">Chatbot</a>
             <a href="searchstories.php">search</a>
             <?php
 
@@ -78,8 +79,8 @@ if (isset($_SESSION['brend_id'])) {
 
         <div class="content">
             <h3>Why pick us?</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia reprehenderit obcaecati nihil rerum quae ullam odit ipsum veniam accusantium corporis consequatur saepe vel sint, quaerat nostrum maxime, eius aliquam animi!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet doloremque hic nobis fugiat dolores ullam, ad laboriosam illo voluptates tempora, dolore itaque quaerat officiis quam maxime sapiente perspiciatis explicabo recusandae?</p>
+            <p>At Web-Based Tourism, we are passionate about providing exceptional travel experiences to our valued users. Our platform is designed to assist you in planning your dream vacations, exploring exciting destinations, and discovering unique attractions worldwide. With our user-friendly interface and innovative features, we aim to make your travel planning process seamless and enjoyable</p>
+            <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet doloremque hic nobis fugiat dolores ullam, ad laboriosam illo voluptates tempora, dolore itaque quaerat officiis quam maxime sapiente perspiciatis explicabo recusandae?</p> -->
             <div class="icons-container">
                 <div class="icons">
                     <i class="fas fa-map"></i>
@@ -148,6 +149,7 @@ if (isset($_SESSION['brend_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
+
                     </div>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
                     <h3>Okocha</h3>

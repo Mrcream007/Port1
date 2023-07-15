@@ -68,5 +68,9 @@
 
     ?>
 
+<h1>You have successfully signed up!</h1>
+    <br>
+    <p>You can now <a href="login.php">login</a></p>
+
 </body>
 </html>
