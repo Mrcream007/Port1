@@ -46,7 +46,7 @@ if (isset($_SESSION['brend_id'])) {
             <a href="about.php">about</a>
             <a href="package.php">package</a>
             <a href="book.php">book</a>
-            <a href="bot.php">Chatbot</a>
+            <!-- <a href="bot.php">Chatbot</a> -->
             <a href="searchstories.php">search</a>
             <?php
 

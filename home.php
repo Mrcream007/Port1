@@ -53,7 +53,7 @@ if (isset($_SESSION['brend_id'])) {
             <a href="searchstories.php">search</a>
             <a href="login.php">Login</a>
             <a  href="logout.php">Logout</a>
-            <a href="bot.php">Chatbot</a>
+            <!-- <a href="bot.php">Chatbot</a> -->
             <?php
 
                     if(isset($brend)):
@@ -70,6 +70,55 @@ if (isset($_SESSION['brend_id'])) {
     </section>
     <!-- header section ends -->
 
+
+     <!-- chatbot starts-->
+<div class="wrapper">
+        <div class="title">Online Chatbot</div>
+        <div class="form">
+            <div class="bot-inbox inbox">
+                <div class="icon">
+                <i class='fas fa-fire'></i>
+                </div>
+                <div class="msg-header">
+                    <p>Welcome, how may I be of service to you?</p>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="typing-field">
+            <div class="input-data">
+                <input id="data" type="text" placeholder="Type something here..." required>
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#send-btn").on("click", function(){
+                $value = $("#data").val();
+                // alert($value);
+                $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
+                $(".form").append($msg);
+                $("#data").val('');
+
+                // start ajax code 
+                $.ajax({
+                    url: 'message.php',
+                    type: 'POST',
+                    data: 'text='+$value,
+                    success: function(result){
+                        $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-fire"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
+                        $(".form").append($replay);
+                        // when chat goes down the scroll bar automatically comes to the bottom
+                        $(".form").scrollTop($(".form")[0].scrollHeight);
+                    }
+                });
+            });
+        });
+    </script>
+    <!-- chatbot ends-->
 
 
     <!-- home section starts -->
@@ -240,28 +289,6 @@ if (isset($_SESSION['brend_id'])) {
     </section>
 
     <!-- home offer ends -->
-
-
-
-
-    <!-- chatbot starts -->
-
-    <div id="chatbot-container">
-        <div id="chatbot-header">
-            <h3>Chatbot</h3>
-        </div>
-        <div id="chatbot-messages">
-            <p>Welcome to the chatbot! Click <a href="bot.php"> Here</a> to access chatbot!</p>
-        </div>
-        <div id="user-input">
-            <input type="text" id="message-input" placeholder="Type your message..." required>
-            <button id="send-button">Send</button>
-        </div>
-    </div> 
-
-
-    <!-- chatbot ends -->
-
 
 
 
