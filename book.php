@@ -76,7 +76,10 @@ if (isset($_SESSION['brend_id'])) {
 
             <h1 class="heading-title">book your trip!</h1>
 
-            <form action="book_form.php" method="post" class="book-form">
+
+            <?php
+            if (isset($brend)){
+            echo '<form action="book_form.php" method="post" class="book-form">
                 <div class="flex">
                     <div class="inputBox">
                         <span>name: </span>
@@ -112,8 +115,10 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                 </div>
 
-                <input type="submit" value="submit" class="btn" name="send">
-
+                <input type="submit" value="submit" class="btn" name="send">';
+            }
+                
+                ?>
             </form>
 
         </section>
