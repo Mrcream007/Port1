@@ -36,6 +36,13 @@ if (isset($_SESSION['brend_id'])) {
 
     <!-- css link file -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- ************************************************************************************************88 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <!-- font awesome link -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- *******************************************************************************************888******** -->
 </head>
 <body>
     
@@ -72,7 +79,7 @@ if (isset($_SESSION['brend_id'])) {
 
 
      <!-- chatbot starts-->
-<div class="wrapper">
+     <div class="wrapper">
         <div class="title">Online Chatbot</div>
         <div class="form">
             <div class="bot-inbox inbox">
