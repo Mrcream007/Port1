@@ -834,7 +834,7 @@ section{
     /* bottom: 20px;
     right: 20px; */
     width: 370px;
-    /* height: 400px; */
+    /* height: 400px;  */
     background-color: #e4e3ea;
     border: 1px solid #4b3767;
     border-radius: 5px;
@@ -847,7 +847,7 @@ section{
     background: #007bff;
     color: #fff;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 50;
     line-height: 60px;
     text-align: center;
     border-bottom: 1px solid #006fe6;
@@ -948,7 +948,7 @@ section{
 }
 
 .wrapper .typing-field .input-data button{
-    position: absolute;
+    position: absolute; 
     right: 5px;
     top: 50%;
     height: 30px;

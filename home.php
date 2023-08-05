@@ -57,7 +57,7 @@ if (isset($_SESSION['brend_id'])) {
             <a href="about.php">about</a>
             <a href="package.php">package</a>
             <a href="book.php">book</a>
-            <a href="searchstories.php">search</a>
+            <!-- <a href="searchstories.php">search</a> -->
             <a href="login.php">Login</a>
             <a  href="logout.php">Logout</a>
             <!-- <a href="bot.php">Chatbot</a> -->
@@ -182,22 +182,22 @@ if (isset($_SESSION['brend_id'])) {
 
                <div class="box">
                     <img src="images/butterfly-icon.jpg"  alt="">
-                    <h3>adventure</h3>
+                    <h3><a href="book.php">adventure</a></h3>
                 </div>
 
                 <div class="box">
                     <img src="../Port1/images/normalPic.jpg" alt="">
-                    <h3>enjoy tour guide</h3>
+                    <h3><a href="package.php">enjoy tour guide</a></h3>
                 </div>
 
                 <div class="box">
                         <img src="../Port1/images/officeLady.jpg"  alt="">
-                        <h3>Flights</h3>
+                        <h3><a href="book.php">Flights</a></h3>
                 </div>
 
                 <div class="box">
                         <img src="images/grey-geometrical-shapes-background.jpg"  alt="">
-                        <h3>Destinations</h3>
+                        <h3><a href="book.php">Destinations</a></h3>
                 </div>
 
                 <div class="box">

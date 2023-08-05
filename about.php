@@ -56,7 +56,7 @@ if (isset($_SESSION['brend_id'])) {
             <a href="package.php">package</a>
             <a href="book.php">book</a>
             
-            <a href="searchstories.php">search</a>
+            <!-- <a href="searchstories.php">search</a> -->
             <?php
 
                     if(isset($brend)):
@@ -88,7 +88,7 @@ if (isset($_SESSION['brend_id'])) {
 
         <div class="content">
             <h3>Why pick us?</h3>
-            <p>At Web-Based Tourism, we are passionate about providing exceptional travel experiences to our valued users. Our platform is designed to assist you in planning your dream vacations, exploring exciting destinations, and discovering unique attractions worldwide. With our user-friendly interface and innovative features, we aim to make your travel planning process seamless and enjoyable</p>
+            <p>At Travel Tourism, we are passionate about providing exceptional travel experiences to our valued users. Our platform is designed to assist you in planning your dream vacations, exploring exciting destinations, and discovering unique attractions worldwide. With our user-friendly interface and innovative features, we aim to make your travel planning process seamless and enjoyable</p>
             <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet doloremque hic nobis fugiat dolores ullam, ad laboriosam illo voluptates tempora, dolore itaque quaerat officiis quam maxime sapiente perspiciatis explicabo recusandae?</p> -->
             <div class="icons-container">
                 <div class="icons">
@@ -118,7 +118,7 @@ if (isset($_SESSION['brend_id'])) {
 
     <section class="reviews">
 
-    <h1 class="heading-title">Customers Reviews</h1>
+    <h1 class="heading-title">Users Reviews</h1>
 
         <div class="swiper reviews-slider">
 
@@ -132,8 +132,8 @@ if (isset($_SESSION['brend_id'])) {
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat .</p>
-                    <h3>Okocha</h3>
+                    <p>This site has made planning my vacations a breeze! The web-based application's user-friendly interface and chatbot feature allowed me to customize my itinerary and get instant travel recommendations.</p>
+                    <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/Goat.jpg" alt="">
                 </div>
@@ -145,8 +145,8 @@ if (isset($_SESSION['brend_id'])) {
                         <i class="fas fa-star"></i>
                         
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. .</p>
-                    <h3>Okocha</h3>
+                    <p>The chatbot was incredibly helpful, answering all my questions promptly and providing real-time updates on flight availability and hotel options..</p>
+                    <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/guyexploring.jpg" alt="">
                 </div>
@@ -160,8 +160,8 @@ if (isset($_SESSION['brend_id'])) {
                         <i class="fas fa-star"></i>
 
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
-                    <h3>Okocha</h3>
+                    <p>The chatbot's ability to handle multiple queries simultaneously made the process smooth and efficient. </p>
+                    <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/butterfly-icon.jpg" alt="">
                 </div>
@@ -173,8 +173,8 @@ if (isset($_SESSION['brend_id'])) {
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
-                    <h3>Okocha</h3>
+                    <p>Thanks to Travel app, I had the most memorable trip without any stress.</p>
+                    <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/ladychinese.jpg" alt="">
                 </div>
@@ -183,24 +183,24 @@ if (isset($_SESSION['brend_id'])) {
                     <div class="stars">
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos sapiente eum ab omnis expedita harum.</p>
-                    <h3>Okocha</h3>
+                    <p>Highly recommended for anyone seeking a seamless travel planning experience.</p>
+                    <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/ladychinese.jpg" alt="">
                 </div>
 
-                <div class="swiper-slider slide">
+                <!-- <div class="swiper-slider slide">
                     <div class="stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod placeat id doloribus quam nam necessitatibus illum ea! Distinctio maxime impedit quod. Non repellat dignissimos .</p>
-                    <h3>Okocha</h3>
+                    <p>The web application's intuitive design and the chatbot's responsiveness made everything so much easier.</p>
+                    <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/ladychinese.jpg" alt="">
-                </div>
+                </div> -->
 
             </div>
         </div>
