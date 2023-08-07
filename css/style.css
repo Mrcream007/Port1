@@ -536,6 +536,10 @@ section{
     font-size: 6rem;
 }
 
+.booking .sign-up-booking{
+    text-align: center;
+}
+
 .booking .book-form{
     padding: 2rem;
     background: var(--light-bg);
@@ -974,4 +978,59 @@ section{
     background: #006fef;
 }
 /* Chatbot ends */
-/**/
+
+
+
+
+
+
+
+
+
+
+
+
+/* chatbot new starts ***************************************************************************************************************** */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.chatbox-container {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#chatbot-header {
+    background-color: #212020;
+    padding: 10px;
+}
+
+.chat-message {
+    overflow-y: scroll;
+    max-height: 300px;
+    margin-bottom: 10px;
+}
+
+.user-message {
+    color: #007bff;
+}
+
+.chatbot-message {
+    color: #28a745;
+}
+
+/* chatbot new ends ******************************************************************************************************************* */

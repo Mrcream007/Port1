@@ -90,7 +90,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>Booking and Reservation</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -102,7 +102,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -114,7 +114,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>Availability and Prices</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -126,7 +126,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>Customization Options</h3>
-                            <p>Lorem ipsum dolor sit amet consect.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consect.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -138,7 +138,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>Package Details</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -150,7 +150,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>More Activities</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -162,7 +162,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -174,7 +174,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -186,7 +186,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -198,7 +198,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -210,7 +210,7 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
@@ -222,14 +222,14 @@ if (isset($_SESSION['brend_id'])) {
                     </div>
                         <div class="content">
                             <h3>adventure and tour</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p>
+                            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus recusandae in non accusamus pa.</p> -->
                             <a href="book.php" class="btn">book now</a>
                         </div>
                 </div>
 
             </div>
 
-            <div class="load-more"><span class="btn">load more</span></div>
+            <div class="load-more"><span class="btn"><a href="book.php">load more</a></span></div>
 
         </section>
 
@@ -268,10 +268,10 @@ if (isset($_SESSION['brend_id'])) {
 
             <div class="box">
                 <h3>follow us</h3>
-                <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i>twitter</a>
-                <a href="#"><i class="fab fa-instagram"></i>instagram</a>
-                <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i>twitter</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i>linkedin</a>
             </div>
 
         </div>
@@ -288,57 +288,6 @@ if (isset($_SESSION['brend_id'])) {
 
     <!-- js file link -->
     <script>src="js/script.js"</script>
-
-    <!-- chatbot starts -->
-     
-<div class="wrapper">
-        <div class="title">Online Chatbot</div>
-        <div class="form">
-            <div class="bot-inbox inbox">
-                <div class="icon">
-                <i class='fas fa-fire'></i>
-                </div>
-                <div class="msg-header">
-                    <p>Welcome, how may I be of service to you?</p>
-                </div>
-            </div>
-
-            
-        </div>
-        <div class="typing-field">
-            <div class="input-data">
-                <input id="data" type="text" placeholder="Type something here..." required>
-                <button id="send-btn">Send</button>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        $(document).ready(function(){
-            $("#send-btn").on("click", function(){
-                $value = $("#data").val();
-                // alert($value);
-                $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
-                $(".form").append($msg);
-                $("#data").val('');
-
-                // start ajax code 
-                $.ajax({
-                    url: 'message.php',
-                    type: 'POST',
-                    data: 'text='+$value,
-                    success: function(result){
-                        $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-fire"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
-                        $(".form").append($replay);
-                        // when chat goes down the scroll bar automatically comes to the bottom
-                        $(".form").scrollTop($(".form")[0].scrollHeight);
-                    }
-                });
-            });
-        });
-    </script>
-    
-    <!-- chatbot ends -->
 
 </body>
 </html>

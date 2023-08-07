@@ -132,7 +132,7 @@ if (isset($_SESSION['brend_id'])) {
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     </div>
-                    <p>This site has made planning my vacations a breeze! The web-based application's user-friendly interface and chatbot feature allowed me to customize my itinerary and get instant travel recommendations.</p>
+                    <p>I found the application very useful. Maybe adding a voice to the Chatbot could be useful.</p>
                     <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/Goat.jpg" alt="">
@@ -145,7 +145,7 @@ if (isset($_SESSION['brend_id'])) {
                         <i class="fas fa-star"></i>
                         
                     </div>
-                    <p>The chatbot was incredibly helpful, answering all my questions promptly and providing real-time updates on flight availability and hotel options..</p>
+                    <p>I think its aesthetically pleasing to the eye, but more color can be added to the system</p>
                     <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/guyexploring.jpg" alt="">
@@ -183,7 +183,7 @@ if (isset($_SESSION['brend_id'])) {
                     <div class="stars">
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Highly recommended for anyone seeking a seamless travel planning experience.</p>
+                    <p>More locations should be added to the plan.</p>
                     <h3>anonymous</h3>
                     <span>traveler</span>
                     <img src="images/ladychinese.jpg" alt="">
@@ -210,54 +210,75 @@ if (isset($_SESSION['brend_id'])) {
     <!-- reviews section ends -->
 
 
-     <!-- chatbot starts-->
-<div class="wrapper">
-        <div class="title">Online Chatbot</div>
-        <div class="form">
-            <div class="bot-inbox inbox">
-                <div class="icon">
-                <i class='fas fa-fire'></i>
-                </div>
-                <div class="msg-header">
-                    <p>Welcome, how may I be of service to you?</p>
-                </div>
-            </div>
+    <!-- New chatbot starts -->
 
-            
-        </div>
-        <div class="typing-field">
-            <div class="input-data">
-                <input id="data" type="text" placeholder="Type something here..." required>
-                <button id="send-btn">Send</button>
-            </div>
-        </div>
+    <div class="chatbox-container">
+        <div id="chatbot-header"><h3>Travel Chatbot</h3></div> <!--experiment-->
+        <div id="chat" class="chat-message"></div>
+        <input type="text" id="userInput" placeholder="Type your message...">
     </div>
 
     <script>
-        $(document).ready(function(){
-            $("#send-btn").on("click", function(){
-                $value = $("#data").val();
-                // alert($value);
-                $msg = '<div class="user-inbox inbox"><div class="msg-header"><p>'+ $value +'</p></div></div>';
-                $(".form").append($msg);
-                $("#data").val('');
+        var userName = "";
+        const travelDestinations = {
+            "tell me about paris": "Paris is known for its romantic ambiance and iconic landmarks like the Eiffel Tower and Louvre Museum.",
+            "tell me about tokyo": "Tokyo is a bustling metropolis with a mix of modern skyscrapers and traditional temples.",
+            "tell me about new york": "New York City offers a vibrant cultural scene, world-famous Broadway shows, and diverse neighborhoods.",
+            "tell me about rome": "Rome is a city rich in history and home to ancient ruins like the Colosseum and Roman Forum.",
+            "tell me about bali": "Bali is a tropical paradise with stunning beaches, lush rice terraces, and vibrant arts and culture.",
+            "tell me about capetown": "Cape-town is a beautiful town in the country of South Africa. Known for its multicultural and diverse history. Has a lot of beautiful beaches due to its location along the coast",
+            // Add more travel destinations and advice here
+            "bye": "Goodbye! Have a safe trip!!",
+            "recommend me some tourist destinations in africa": "Alright! Some tourist destinations in Africa include: Cape-town, Portharcourt, Cairo, Accra, Casablanca, etc.",
+            "recommend me some tourist destinations in europe": "Alright! Some tourist destinations in Africa include: Paris, Rome, London bridge, Greece, etc"
+        };
 
-                // start ajax code 
-                $.ajax({
-                    url: 'message.php',
-                    type: 'POST',
-                    data: 'text='+$value,
-                    success: function(result){
-                        $replay = '<div class="bot-inbox inbox"><div class="icon"><i class="fas fa-fire"></i></div><div class="msg-header"><p>'+ result +'</p></div></div>';
-                        $(".form").append($replay);
-                        // when chat goes down the scroll bar automatically comes to the bottom
-                        $(".form").scrollTop($(".form")[0].scrollHeight);
-                    }
-                });
-            });
+        function displayChatbotResponse(response, isUserMessage) {
+            const chatDiv = document.getElementById("chat");
+            const chatbotResponse = document.createElement("p");
+            chatbotResponse.textContent = (isUserMessage ? "You: " : "Chatbot: ") + response;
+            chatbotResponse.className = (isUserMessage ? "user-message" : "chatbot-message");
+            chatDiv.appendChild(chatbotResponse);
+            chatDiv.scrollTop = chatDiv.scrollHeight;
+        }
+
+        function handleUserInput() {
+            const userInput = document.getElementById("userInput").value.toLowerCase();
+            const chatDiv = document.getElementById("chat");
+
+            const userMessage = document.createElement("p");
+            userMessage.textContent = "You: " + userInput;
+            userMessage.className = "user-message";
+            chatDiv.appendChild(userMessage);
+
+            document.getElementById("userInput").value = "";
+
+            // Handle user's name
+            if (!userName) {
+                if (userInput.includes("my name is ")) {
+                    userName = userInput.replace("my name is ", "");
+                    displayChatbotResponse("Nice to meet you, " + userName + "! How can I assist you with your travel plans?", false);
+                } else {
+                    displayChatbotResponse("Hello! What's your name?", false);
+                }
+            } else {
+                // Handle travel advice
+                if (travelDestinations[userInput]) {
+                    displayChatbotResponse(travelDestinations[userInput], false);
+                } else {
+                    displayChatbotResponse("I'm sorry, I don't have information about that destination.", false);
+                }
+            }
+        }
+
+        document.getElementById("userInput").addEventListener("keydown", function (event) {
+            if (event.keyCode === 13) {
+                handleUserInput();
+            }
         });
     </script>
-    <!-- chatbot ends-->
+
+    <!-- New chatbot ends -->
 
   
 
@@ -294,10 +315,10 @@ if (isset($_SESSION['brend_id'])) {
 
             <div class="box">
                 <h3>follow us</h3>
-                <a href="#"><i class="fab fa-facebook-f"></i>facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i>twitter</a>
-                <a href="#"><i class="fab fa-instagram"></i>instagram</a>
-                <a href="#"><i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i>twitter</a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i>linkedin</a>
             </div>
 
         </div>
