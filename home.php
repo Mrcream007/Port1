@@ -149,7 +149,7 @@ if (isset($_SESSION['brend_id'])) {
             // Add more travel destinations and advice here
             "bye": "Goodbye! Have a safe trip!!",
             "recommend me some tourist destinations in africa": "Alright! Some tourist destinations in Africa include: Cape-town, Portharcourt, Cairo, Accra, Casablanca, etc.",
-            "recommend me some tourist destinations in europe": "Alright! Some tourist destinations in Africa include: Paris, Rome, London bridge, Greece, etc"
+            "recommend me some tourist destinations in europe": "Alright! Some tourist destinations in Europe include: Paris, Rome, London bridge, Greece, etc"
         };
 
         function displayChatbotResponse(response, isUserMessage) {
