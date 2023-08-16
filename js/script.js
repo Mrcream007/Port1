@@ -18,9 +18,10 @@ var swiper = new Swiper(".home-slider", {
          prevE1: ".swiper-button-prev",
      },
 
-    // pagination: {
-        // el: ".swiper-pagination",
-    //  },
+    //  pagination: {
+    //     el: ".swiper-pagination",
+    //     clickable: true,
+    //   },
 });
 
 var swiper = new Swiper(".reviews-slider", {
