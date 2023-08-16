@@ -78,14 +78,21 @@ if (isset($_SESSION['brend_id'])) {
                     <a href="package.php" class="btn">discover much more</a>
                 </div>
             </div>
-            <div class="swiper-slide slide" style="background: url(images/guyexploring.jpg) no-repeat;">
+            <div class="swiper-slide slide" style="background: url(images/famous-eiffel-tower-paris-with-gorgeous-colors.jpg) no-repeat;">
                 <div class="content">
                     <span>discover, travel, explore</span>
                     <h3>explore beautiful locations</h3>
                     <a href="package.php" class="btn">discover much more</a>
                 </div>
             </div>
-            <div class="swiper-slide slide" style="background: url(images/snowy-mountain-landscape.jpg) no-repeat;">
+            <div class="swiper-slide slide" style="background: url(images/geisha\ with\ umbrella.jpg) no-repeat;">
+                <div class="content">
+                    <span>discover, travel, explore</span>
+                    <h3>have a memorable experience</h3>
+                    <a href="package.php" class="btn">discover much more</a>
+                </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(images/group-elephants-big-green-tree-wilderness.jpg) no-repeat;">
                 <div class="content">
                     <span>discover, travel, explore</span>
                     <h3>have a memorable experience</h3>
@@ -273,6 +280,9 @@ if (isset($_SESSION['brend_id'])) {
 
 <!-- footer ends -->
 
+<!-- chatbot starts -->
+
+<!-- chatbot ends -->
 
 <!-- Swiper JavaScript link -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -290,9 +300,29 @@ if (isset($_SESSION['brend_id'])) {
         //     el: ".swiper-pagination",
         //     clickable: true,
         // },
+        
     });
 
     // Your other script code
+    let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("slide");
+  
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  
+  slideIndex++;
+  
+  if (slideIndex > slides.length) {
+    slideIndex = 1;
+  }
+  
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
 </script>
 
 </body>
